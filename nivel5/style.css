@@ -1,3 +1,9 @@
 .galeria img{
     margin: 24px;
 }
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
