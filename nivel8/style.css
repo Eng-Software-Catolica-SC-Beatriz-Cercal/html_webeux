@@ -58,4 +58,20 @@ ul li{
         width: 100%;
         background-color: rgb(161, 136, 104);
     }
+    .links.active{
+        display: flex;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+    ul{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li{
+        margin: 24px;
+    }
 }
