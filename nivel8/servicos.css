@@ -64,30 +64,30 @@ section{
     justify-items: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(177, 165, 149);
-    border-radius: 50px;
 }
 
-section span{
-text-align: center;
-justify-items: center;
-align-items: center;
-text-align: center;
-background-color: aqua;
-width: 100px;
-height: 50px;
-border-radius: 2px;
+.color{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-size: 20px;
 }
 
+.color span{
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    background-color:rgb(141, 141, 111) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
 
-section form button{
-    padding: 8px;
-    border-radius: 8px;
-    border: 1px solid grey;
-    width: 90%;
-    background-color: rgb(83, 78, 78);
-    color: white;
-
+.logo-img {
+    width: 70px;
+    border-radius: 32px;
+    position: absolute;
+    right: 1610px;
 }
 
 footer{
