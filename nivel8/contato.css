@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+h2{
+    text-align: center;
+}
+
 body {
     background-color: rgb(227, 211, 188);
     margin: 0;
@@ -63,6 +67,16 @@ footer {
     display: flex;
     flex-direction: row;
     color: rgb(161, 136, 104);
+}
+
+section{
+    padding: 24px;
+    max-width: 728px;
+    width: 100vw;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
 
 .info{
