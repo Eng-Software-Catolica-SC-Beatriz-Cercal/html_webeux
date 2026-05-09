@@ -12,7 +12,7 @@ body {
     grid-template-rows: min-content 1fr min-content;
 }
 
-header{
+header {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -21,7 +21,7 @@ header{
     color: rgb(141, 141, 111);
 }
 
-.logo{
+.logo {
     margin: 8px;
     padding: 8px;
     width: 24%;
@@ -29,7 +29,7 @@ header{
     font-size: 36px;
 }
 
-.links{
+.links {
     margin: 8px;
     padding: 8px;
     width: 76%;
@@ -38,25 +38,25 @@ header{
     justify-content: flex-end;
 }
 
-ul{
+ul {
     list-style: none;
     display: inline-block;
     display: flex;
     font-size: 24px;
 }
 
-ul li{
+ul li {
     margin: 16px;
     align-self: flex-end;
 }
 
-.menu-icon{
+.menu-icon {
     display: none;
     cursor: pointer;
     padding: 16px;
 }
 
-section{
+section {
     padding: 24px;
     max-width: 728px;
     width: 100vw;
@@ -66,19 +66,19 @@ section{
     text-align: center;
 }
 
-.color{
+.color {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     font-size: 20px;
 }
 
-.color span{
+.color span {
     width: 300px;
     align-items: center;
     text-align: center;
     border: 2px;
-    background-color:rgb(141, 141, 111) ;
+    background-color: rgb(141, 141, 111);
     padding: 10px 20px;
     border-radius: 10px;
 }
@@ -90,7 +90,7 @@ section{
     right: 1610px;
 }
 
-footer{
+footer {
     margin: 0px;
     padding: 16px;
     width: 100%;
@@ -101,8 +101,8 @@ footer{
 
 
 
-@media (max-width: 768px){
-    .links{
+@media (max-width: 768px) {
+    .links {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -111,22 +111,23 @@ footer{
         width: 100%;
         background-color: rgb(161, 136, 104);
     }
-    .links.active{
+
+    .links.active {
         display: flex;
     }
 
-    .menu-icon{
+    .menu-icon {
         display: block;
     }
-    ul{
+
+    ul {
         flex-direction: column;
         width: 100%;
         text-align: center;
     }
 
-    ul li{
+    ul li {
         margin: 24px;
     }
 
 }
-
