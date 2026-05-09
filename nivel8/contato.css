@@ -38,6 +38,24 @@ header {
     justify-content: flex-end;
 }
 
+ul {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    font-size: 24px;
+}
+
+ul li {
+    margin: 16px;
+    align-self: flex-end;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    padding: 16px;
+}
+
 footer {
     margin: 16px;
     padding: 16px;
@@ -45,4 +63,27 @@ footer {
     display: flex;
     flex-direction: row;
     color: rgb(161, 136, 104);
+}
+
+.info{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.info span{
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    background-color:rgb(141, 141, 111) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.logo-img {
+    width: 70px;
+    border-radius: 32px;
+    position: absolute;
+    right: 1600px;
 }
