@@ -102,3 +102,28 @@ section {
     position: absolute;
     right: 1600px;
 }
+
+section form label {
+    display: block;
+    margin: 24px 0;
+    color: gray;
+
+}
+
+section form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 240px;
+
+}
+
+section form button {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 90%;
+    background-color: rgb(141, 141, 111);
+    color: black;
+
+}
